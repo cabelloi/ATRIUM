@@ -1,0 +1,19 @@
+{
+  "name": "atrium",
+  "version": "1.0.0",
+  "description": "Ejemplos del curso de HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML_CSS"
+  ],
+  "author": "Irene Cabello",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}
