@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Hola Mundo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="short icon" href="./favicon.ico" type="image/x-UA-Compatible">
+    <script src="./source/app.js" type="module"></script>
+</head>
+<body>
+    <h3>DIV</h3>
+    <div>Hola España</div>
+    <header>
+        <h1>Título Principal</h1>
+        <img  src="./assets/AJ_Digital_Camera.svg"> 
+        <svg version="1.1"
+            baseProfile="full"
+            width="300" height="200"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="black" />
+            <circle cx="150" cy="100" r="90" fill="blue" />
+        </svg>
+        <nav>
+            <ol>
+                <li><a href="#item1">Item 1</a></li>
+                <li><a href="#item2">Item 2</a></li>
+                <li><a href="#item1">Item 3</a></li>
+                <li><a href="#form">Formulario</a></li>
+                <li><a href="#item1">Item 5</a></li>
+                <li><a href="https://www.google.es">google</a></li>
+            </ol>
+        </nav>
+        <video width="400px" controls>
+                <source src="/./assets/Ghost_in_the_Shell_Opening.webm"  type="video/webm">
+                <source src="./assets/Ghost_in_the_Shell_Opening.mp4" type="video/mp4">
+                </video>
+    </header>
+    <h3>SECTION</h3>
+    <section id=item1>
+        Engloba o agrupa un conjunto de secciones
+        <h3>ASIDE</h3>
+        <aside>
+            <iframe class="full" width="560" height="315" 
+            src="https://www.youtube.com/embed/gVYId9MOhPI"
+            frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+            <p>
+            Información adicional al contenido de la página
+            </p>
+            <p>
+            <iframe src="https://www.agenciatributaria.es/" 
+            frameborder="0" width="600px"></iframe>
+        </p>
+        </aside>
+        <h3>ARTICLE</h3>
+        <article>
+            Composición que tiene significado por si mismo y que se pueden
+            reutilizar por si mismos.
+        </article>
+    </section>
+    <section id=item2>
+        <article>
+            <h2> Item 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ex perferendis quis nesciunt saepe
+                dolores aspernatur iste similique, repudiandae magni! Libero voluptatibus ex fugit distinctio sit
+                mollitia, deleniti ea saepe!</p>
+            <p>Dolore inventore, maiores ducimus voluptatibus corporis tenetur aperiam non iure voluptates eveniet ad,
+                exercitationem perspiciatis doloribus vero tempora voluptatem, pariatur neque? Reprehenderit nesciunt
+                ratione natus obcaecati cupiditate voluptas laudantium praesentium!</p>
+            <p>Dolorum repellat nulla illum pariatur mollitia fugit eum        debitis voluptatum, nostrum reiciendis nemo
+                quis quia alias, aut fugiat blanditiis qui ipsam repudiandae nobis fuga! Iste illum culpa qui corporis
+                delectus.</p>
+        </article>
+
+        <article>
+            <h2> Item 3</h2>
+            <img src="https://via.placeholder.com/150" 
+            alt="texto alternativo" >
+        </article>
+        <article>
+            <h2> Item 4</h2>
+            <picture>
+                <source media="(min-width: 650px)" srcset="./favicon.png">
+                <source media="(min-width: 465px)" srcset="./favicon.icos">
+                <img src="./favicon.png" alt="Flowers" style="width:auto;">
+              </picture>
+        </article>
+    </section>
+    <section id="form">
+        <h2> Ejemplo de formulario</h2>
+        <form action="" method="">
+    <fieldset>
+            <legend> Datos personales</legend>
+            <div> Name.....:<input type="text" name="nombre" id="nombre"  placeholder="nombre"></div>
+            <div> Apellido.:<input type="text" name="apellido" id="apellido"placeholder="apellido" required></div>
+            <div> Email....:<input type="email" name="email" id="email" placeholder="email"required></div>
+            <button type="submit">enviar</button>
+            <button >enviar sin submit</button>
+    </fieldset>
+
+        </form>
+    </section>
+</body>
+</html>
