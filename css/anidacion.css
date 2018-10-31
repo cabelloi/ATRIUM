@@ -1,0 +1,60 @@
+/* 
+    Estilos en linea
+    id
+    class / atributos
+    tag (etiquetas)
+*/
+
+/* 0 0 0 2*/
+section p {
+    color: brown
+}
+
+/* 0 0 0 2*/
+section>p {
+    color: blue
+}
+
+/* 0 0 0 2*/
+section~p{
+    color: darkgreen
+}
+
+/* 0 0 0 2*/
+section+p {
+    color: crimson
+}
+
+/* 0 0 0 3 */
+section+p::first-letter {
+    font-size: 2rem;
+} 
+
+/* 0 0 0 3 */
+section+p::first-line {
+    text-decoration: underline;
+}
+
+
+address::before {
+    content: "INICIO"
+}
+
+address::after {
+    content: "FIN"
+}
+
+/* 0 0 1 1 */
+address:hover{
+    color: brown;
+}
+
+section {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+section div{
+    border: inherit;
+}
+

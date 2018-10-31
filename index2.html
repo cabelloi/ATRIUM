@@ -6,16 +6,14 @@
     <title>Hola Mundo</title>
     <base href="/">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/reset.css">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/app.js" type="module"></script> 
 </head>
 
 <body>
    <header>
-        <h1>Título principal <i id="btnInicial" class="fas fa-address-book boton"></i></h1>
+        <h1>Título principal</h1>
         <img src="./assets/AJ_Digital_Camera.svg" alt="logo de una camara">
         <nav id="inicio">
             <ol>
@@ -23,8 +21,8 @@
                 <li><a href="#item2">Item 2</a></li>
                 <li><a href="#item3">Item 3</a></li>
                 <li><a href="#form">Formulario</a></li>
-                <li><a href="#news">Novedades HTML 5.x</a></li>
                 <li><a href="https://www.google.es">Google</a></li>
+                <li><a href="#news">News</a></li>
             </ol>
         </nav>
    </header>
@@ -41,7 +39,7 @@
                     <figcaption>Título de la imagen</figcaption>
                 </figure>
                 
-                <p class="ultimo">Illo, tenetur! Officiis qui non fugit nisi omnis eos voluptatum incidunt consequuntur vitae error nesciunt voluptas odit voluptate laboriosam aliquid iusto, hic, vero sint quas veniam esse, doloribus impedit! Odit.</p>       </article>
+                <p>Illo, tenetur! Officiis qui non fugit nisi omnis eos voluptatum incidunt consequuntur vitae error nesciunt voluptas odit voluptate laboriosam aliquid iusto, hic, vero sint quas veniam esse, doloribus impedit! Odit.</p>       </article>
             <article>
                 <h3>Article 2</h3>
                 <p>Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing elit. Aliquid nemo similique facere <em>reprehenderit</em> omnis sed nulla molestias quae beatae? Ipsam exercitationem officiis est pariatur enim aut perspiciatis officia, porro nihil?</p>
@@ -148,27 +146,17 @@
         </section>
         <section id="news">
             <details>
-                <summary>El titulo</summary>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem consequuntur voluptatibus labore dolorem magni mollitia distinctio repellendus saepe. Vero accusamus facere ipsa ducimus cumque, quam totam dignissimos nisi! Alias, sit!</p>
-                <p>Eligendi dolorum aspernatur amet hic maiores saepe asperiores deserunt! Asperiores vitae quo atque, id iure quos tempora animi aperiam unde enim sequi praesentium, eaque commodi recusandae, possimus iste laudantium neque.</p>
-                <p>Unde odit porro nemo perferendis harum magni aliquid soluta dolor, cum voluptas quae quia nostrum accusantium recusandae neque, eveniet molestias corporis dolorum nisi labore. Hic inventore laudantium at repellat nostrum.</p>
-            </details>
+            <summary>Este es el titulo</summary>
+            Los detalles
+            Este es el resto de los detalles
+        </details>
         </section>
-        <button type="button" id="mas-info">Más info</button>
-        <dialog id="my-modal">
-            <p>It seems that we won't see native dialogs after all.</p>
-            <button id="ok-btn">OK :(</button>
-        </dialog>
-        <template id="my-template">
-            <p>Esto se hará visible desde código</p>
-        </template>
-
    </main>
    <aside>
        <h2>Aside 1</h2>
        <iframe width="560" height="315" src="https://www.youtube.com/embed/6e2iI1XxumE" frameborder="0" allow="autoplay; encrypted-media"></iframe>
        <p>Esto es de <time datetime="2018-10-28" pubdate>ayer</time>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ratione ea fuga, eaque obcaecati laudantium? Iste ratione est at. Blanditiis ducimus eum dolorum quaerat possimus repellendus porro molestias perferendis ad!</p>
-       <p>Sunt porro blanditiis quo totam eveniet quas, laudantium non in ducimus adipisci mollitia sit culpa quae architecto nemo tempora natus. Doloremque suscipit et non vero incidunt id a porro aliquid.</p>
+       <p class="ultimo">Sunt porro blanditiis quo totam eveniet quas, laudantium non in ducimus adipisci mollitia sit culpa quae architecto nemo tempora natus. Doloremque suscipit et non vero incidunt id a porro aliquid.</p>
        <iframe class="full" src="https://www.agenciatributaria.es/" frameborder="1"></iframe>
    </aside>
    <footer>

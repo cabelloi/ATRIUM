@@ -1,0 +1,26 @@
+iframe.full{
+    width: 100%
+}
+
+/* Especifidad 0.1.0.0 */
+p{
+    color:blue;
+    font-size: 1.4rem;
+}
+
+/* especifidad 0.0.0.1 */
+#p1 {
+    color: blueviolet;
+}
+
+p.ultimo {
+    color: coral;
+}
+/* especifidad 0.0.1.0 */
+.ultimo {
+    color: chartreuse;
+}
+
+.ultimo:: {
+    color: chartreuse;
+}
