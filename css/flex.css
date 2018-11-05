@@ -1,0 +1,40 @@
+*  {
+    box-sizing: border-box;
+}
+
+p {
+    background-color: coral;
+    padding: 1rem;
+    margin: .5rem;
+   
+}
+
+.numbers p {
+    font-size: 3rem;
+}
+
+p.grande {
+    font-size: 5rem;
+}
+
+.container {
+    margin-top: 2rem;
+    height: 70vh;
+    border: 1px solid;
+    display: flex;
+    /*Determina el eje principal*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Distribución en el eje principal*/
+    justify-content: space-between;
+    /* Distribución en el eje secundario*/
+    align-items: flex-start;
+    /* Distribución entre varias filas*/
+    align-content: stretch;
+}
+
+.text-container {
+    margin-top: 2rem;
+    display: flex;
+    /* flex-direction: column; */
+}
